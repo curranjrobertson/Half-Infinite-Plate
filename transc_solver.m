@@ -7,8 +7,3 @@ xr = 0
 [root,ea,iter] = newtraph(func,dfunc,xr) % 
 
 rad2deg(root)
-
-%%
-dydx = 1
-func = atan(-2*dydx);
-dfunc = 

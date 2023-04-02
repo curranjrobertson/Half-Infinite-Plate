@@ -14,7 +14,7 @@ for dx = f:f:1
         
     while j <= (180)/1
 alpha(j)
-          A(i,j) = dx.*(dy-(dx/2).*tand(alpha(j)));
+          A(i,j) = dx.*(dy+(dx/2).*tand(alpha(j)));
 %           dA(i,j) = dx.*(dy+(dx/2).*secd(alpha(j)).^2);
 %           ddA(i,j) = dx.*(dy+(dx).*tand(alpha(j)).*secd(alpha(j)).^2);
           j = j+1;
